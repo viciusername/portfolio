@@ -55,7 +55,7 @@ list-style:none;
 padding:0;
 }
 .skills li{
-background:#3498db;
+background:#af3510;
 color:#fff;
 padding:6px 10px;
 margin:5px;
@@ -100,15 +100,25 @@ border-radius:6px;
 @media (prefers-reduced-motion: reduce){.skills-gif{display:none}}
 
 .profile-photo{
-display:block;
-margin:10px auto;
-width:200px;
-border-radius:50%;
+  display:block;
+  float:right;
+  margin:10px 0 10px 20px;
+  width:220px;
+  border-radius:50%;
+}
+@media (max-width:700px){
+  .profile-photo{
+    float:none;
+    margin:10px auto;
+    display:block;
+    width:200px;
+  }
 }
 
 /* About section: small layout tweaks */
-#about p{margin:8px 0;}
-#about .location{margin-top:6px;margin-left:12px;color:#666;font-style:italic;font-size:0.95em;}
+#about .section-title{font-size:1.6rem;}
+#about p{margin:8px 0;font-size:1.04rem;line-height:1.6;}
+#about .location{margin-top:6px;margin-left:12px;color:#666;font-style:italic;font-size:1rem;}
 .hobby-explain{margin-top:6px;color:#444;font-size:0.95em;line-height:1.45;}
 .art-description{margin-top:12px;color:#444;line-height:1.6;font-size:0.95em;max-width:900px;margin-left:auto;margin-right:auto;}
 .thanks{margin-top:12px;text-align:center;color:#2b2b2b;font-weight:600;font-size:1.05em;}
