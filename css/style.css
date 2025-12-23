@@ -49,8 +49,8 @@ transition:background .3s,border .3s;
 .form-group input:hover,.form-group textarea:hover{
   /* fallback color */
   background-color:#8a6172;
-  /* animated GIF background */
-  background-image: url("https://i.gifer.com/390o.gif");
+  /* animated GIF background (replaced) */
+  background-image: url("https://i.gifer.com/6OmH.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
