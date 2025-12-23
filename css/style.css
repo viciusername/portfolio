@@ -14,9 +14,8 @@ background-attachment: fixed;
   body{background-image:none;background-color:#f0dae2}
 }
 header,footer{
-  /* fallback color */
-  background-color:#2379cf;
-  /* local header background image */
+  /* use photo instead of solid color */
+  background-color: transparent;
   background-image: url("assets/нада3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,11 +25,13 @@ header,footer{
   padding:20px;
   position:relative;
   overflow:hidden;
+  min-height:140px; /* ensure photo area is visible */
 }
 header::before, footer::before{
   content:"";
   position:absolute; inset:0;
-  background:rgba(0,0,0,0.25);
+  /* lighter overlay for readability without overpowering image */
+  background:rgba(0,0,0,0.12);
   pointer-events:none;
 }
 .container{width:80%;margin:auto;}
