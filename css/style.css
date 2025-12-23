@@ -65,7 +65,16 @@ border-radius:6px;
   border-radius:6px;
   border:1px solid #ddd;
   box-shadow:0 1px 3px rgba(0,0,0,0.08);
+  cursor:pointer;
 }
+
+/* Lightbox styles */
+.lightbox{display:none;position:fixed;inset:0;z-index:9999;align-items:center;justify-content:center;padding:20px}
+.lightbox[aria-hidden="false"]{display:flex}
+.lightbox__overlay{position:absolute;inset:0;background:rgba(0,0,0,0.6)}
+.lightbox__image{max-width:calc(100% - 120px);max-height:calc(100% - 120px);z-index:1001;border-radius:8px;box-shadow:0 6px 30px rgba(0,0,0,0.5)}
+.lightbox__close{position:fixed;right:30px;top:30px;z-index:1002;background:transparent;border:0;color:#fff;font-size:40px;cursor:pointer}
+
 .profile-photo{
 display:block;
 margin:10px auto;

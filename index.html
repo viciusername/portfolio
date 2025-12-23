@@ -42,9 +42,15 @@
     <li>художнє мистецтво</li>
   </ul>
   <div class="art-gallery" aria-label="Галерея робіт">
-    <img src="assets/photo.png" alt="Приклад роботи 1">
-    <img src="https://github.com/viciusername.png" alt="Аватар GitHub">
-    <img src="https://via.placeholder.com/160x100?text=art" alt="Приклад роботи 2">
+    <a href="assets/art-1.jpg" class="lightbox-trigger"><img src="assets/art-1-thumb.jpg" alt="Приклад роботи 1"></a>
+    <a href="assets/art-2.jpg" class="lightbox-trigger"><img src="assets/art-2-thumb.jpg" alt="Приклад роботи 2"></a>
+  </div>
+
+  <!-- Lightbox modal -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <div class="lightbox__overlay" data-close></div>
+    <button class="lightbox__close" aria-label="Закрити">&times;</button>
+    <img class="lightbox__image" src="" alt="">
   </div>
 </section>
 
