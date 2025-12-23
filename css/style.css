@@ -81,6 +81,10 @@ margin:10px auto;
 width:200px;
 border-radius:50%;
 }
+
+/* About section: small layout tweaks */
+#about p{margin:8px 0;}
+#about .location{margin-top:6px;margin-left:12px;color:#666;font-style:italic;font-size:0.95em;}
 .form-group input,.form-group textarea{
 width:100%;
 padding:10px;
