@@ -44,6 +44,28 @@ padding:6px 10px;
 margin:5px;
 border-radius:6px;
 }
+.skills li a{
+  color:#fff;
+  text-decoration:none;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+}
+.art-gallery{
+  margin-top:10px;
+  display:flex;
+  gap:10px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.art-gallery img{
+  width:90px;
+  height:60px;
+  object-fit:cover;
+  border-radius:6px;
+  border:1px solid #ddd;
+  box-shadow:0 1px 3px rgba(0,0,0,0.08);
+}
 .profile-photo{
 display:block;
 margin:10px auto;
