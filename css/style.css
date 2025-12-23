@@ -1,0 +1,57 @@
+body{
+font-family: "Segoe UI", sans-serif;
+margin:0;
+background:#f4f4f9;
+}
+header,footer{
+background:#2c3e50;
+color:#fff;
+text-align:center;
+padding:20px;
+}
+.container{width:80%;margin:auto;}
+.section-title{text-align:center;color:#2c3e50;}
+.card{
+background:#fff;
+padding:20px;
+margin:20px 0;
+border-radius:8px;
+box-shadow:0 2px 6px rgba(0,0,0,.15);
+transition:transform .3s;
+}
+.card:hover{transform:translateY(-4px);}
+.skills{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+list-style:none;
+padding:0;
+}
+.skills li{
+background:#3498db;
+color:#fff;
+padding:6px 10px;
+margin:5px;
+border-radius:6px;
+}
+.profile-photo{
+display:block;
+margin:10px auto;
+width:200px;
+border-radius:50%;
+}
+.form-group input,.form-group textarea{
+width:100%;
+padding:10px;
+border:1px solid #ccc;
+transition:background .3s,border .3s;
+}
+.form-group input:hover,.form-group textarea:hover{
+background:#e8f6ff;
+border-color:#3498db;
+}
+#searchInput{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
