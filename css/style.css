@@ -16,7 +16,7 @@ background-attachment: fixed;
 header,footer{
   /* use photo instead of solid color */
   background-color: transparent;
-  background-image: url("assets/нада3.jpg");
+  background-image: url("../assets/нада3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
